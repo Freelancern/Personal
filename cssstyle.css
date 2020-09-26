@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding:0;
+}
+.main-h{
+	position: fixed;
+	top: 0px;
+	background: none;
+	overflow: hidden;
+	min-height: 48px;
+	z-index: 999;
+	padding-top: 17px;
+	opacity: 0;
+	top: -100px;
+	width: 100%;
+	padding-bottom: 5px;
+	font-family: tahoma;
+	transition: all 0.5s;
+}
+.sticky {
+    background-color: #FFEB3B;
+    opacity: 1;
+    top: 0px;
+    border-bottom: 1px solid gainsboro;
+}
+.logo {
+    width: 200px;
+    font-size: 25px;
+    display: block;
+    color: #000c5f;
+    text-transform: uppercase;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-family: cursive;
+}
+nav{
+   float: right;
+   width: 60%;
+}
+nav ul{
+	list-style: none;
+	overflow: hidden;
+	text-align: right;
+	float: right;
+	margin-top: -3px;
+}
+nav ul li{
+	display: inline-block;
+	margin-left: 35px;
+	line-height: 1.5;
+}
+nav ul li a{
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 400px;
+	color: #333;
+}
+.moblie_toggle{
+	display: none;
+	font-size: 20px;
+	cursor: pointer;
+	position: absolute;
+	right: 22px;
+	width: 30px;
+	top: 0;
+	transition: all 200ms ease-in;
+}
+.moblie_toggle span{
+	width: 30px;
+	height: 4px;
+	margin-bottom: 5px;
+	border-radius: 1000px;
+	background: #8f8f8f;
+	display: block;
+}
+.row{
+	width: 100%;
+	max-width: 940px;
+	position: relative;
+	margin: 0 auto;
+	padding:0 2%;
+}
+body{
+	color:#333;
+	background: white;
+	font-family: tahoma;
+	font-weight: 300;
+}
+a{
+	text-decoration: none;
+}
+p{
+	margin-bottom: 20px;
+	font-size: 17px;
+	line-height: 2;
+}
+.content{
+	padding: 50pc 2% 250px;
+}
+.hero{
+	position: relative;
+	background:url(multiethni.jpg) no-repeat center center fixed;
+	background-size: cover;
+	height: 100vh;
+}
